@@ -1,5 +1,3 @@
-
-
 function checkAnswer() {
    
     var correctAnswer = "4";
@@ -8,7 +6,7 @@ function checkAnswer() {
     
      if (userAnswer) {
         
-        if (userAnswer.value == correctAnswer) {
+        if (userAnswer === correctAnswer) {
         
             document.getElementById('feedback').textContent = "Correct! Well done.";
         } else {
